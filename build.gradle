@@ -13,9 +13,9 @@ subprojects {
     dependencies {
         // for type inference
         annotationProcessor 'org.projectlombok:lombok:1.18.38'
-        compileOnly 'org.projectlombok:lombok:1.18.12'
-        testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
-        testCompileOnly 'org.projectlombok:lombok:1.18.12'
+        compileOnly 'org.projectlombok:lombok:1.18.38'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.38'
+        testCompileOnly 'org.projectlombok:lombok:1.18.38'
 
         // for logging
         implementation 'ch.qos.logback:logback-classic:1.5.18'
